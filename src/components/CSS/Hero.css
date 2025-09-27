@@ -1,0 +1,78 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 20px;
+    background-image: url(https://cdn.britannica.com/94/192794-050-3F3F3DDD/panels-electricity-order-sunlight.jpg);
+    color: #fff;
+    box-shadow: inset 0px 0px 1500px 100px rgba(0, 0, 0, 0.8);
+}
+
+.hero-left {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.hero-left h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-left .muted {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #f59e0b;
+    color: #1e3a8a;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #d97706;
+    transform: translateY(-3px);
+}
+
+.hero-right {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.vision-card {
+    background: #ffffff;
+    color: #1e3a8a;
+    padding: 25px 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vision-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.vision-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.vision-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+}

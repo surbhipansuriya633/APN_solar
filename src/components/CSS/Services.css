@@ -1,0 +1,35 @@
+.service-card {
+    background: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #eaf3ff;
+    transition: background 0.3s;
+}
+
+.service-card:hover .service-icon {
+    background: #d0e4ff;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .service-card {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,42 @@
+.process-card {
+    background: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.process-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.process-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--main);
+    transition: background 0.3s;
+}
+
+.process-card:hover .process-icon {
+    background: black;
+}
+
+.process-step-number {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: black;
+    color: #fff;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+@media (max-width: 768px) {
+    .process-card {
+        margin-bottom: 20px;
+    }
+}

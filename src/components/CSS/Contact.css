@@ -1,0 +1,63 @@
+/* Section Background */
+.contact-section {
+    background: linear-gradient(135deg, var(--main), #1e3c72);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative circles */
+.contact-section::before,
+.contact-section::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    z-index: 0;
+}
+
+.contact-section::before {
+    width: 200px;
+    height: 200px;
+    top: -50px;
+    left: -50px;
+}
+
+.contact-section::after {
+    width: 300px;
+    height: 300px;
+    bottom: -100px;
+    right: -100px;
+}
+
+/* Icon styling */
+.icon-box {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.icon-box:hover {
+    background: #fff;
+    color: #0d6efd;
+    transform: scale(1.1);
+}
+
+/* Contact form */
+.contact-form-wrapper {
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form-wrapper:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
