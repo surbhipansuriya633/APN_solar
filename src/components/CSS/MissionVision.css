@@ -1,0 +1,65 @@
+.mission-vision-solar {
+    position: relative;
+    background: url('https://wallpapercrafter.com/desktop1/653490-solar-panels-natural-resources-solar-energy-1080P.jpg') no-repeat center center/cover;
+    /* padding: 100px 0; */
+    color: #fff;
+    overflow: hidden;
+}
+
+.mission-vision-solar .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* dark overlay for text visibility */
+    z-index: 1;
+}
+
+
+.solar-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    transition: transform 0.5s, box-shadow 0.5s;
+    z-index: 2;
+}
+
+.solar-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.solar-card .icon {
+    margin-bottom: 20px;
+    animation: float 3s ease-in-out infinite;
+    color: var(--main);
+    /* golden color for sun/solar theme */
+}
+
+.solar-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.solar-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #fefefe;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .mission-vision-solar {
+        padding: 60px 0;
+    }
+
+    .solar-card {
+        padding: 30px 20px;
+    }
+}

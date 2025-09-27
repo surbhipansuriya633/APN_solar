@@ -3,7 +3,7 @@ import "./CSS/WhoWeAre.css";
 
 export default function WhoWe() {
     return (
-        <section className="who-we-are-section">
+        <section className="who-we-are-section" id="WhoWe">
             <div className="container">
                 <h2 className="section-title text-center">WHO WE ARE</h2>
                 <p>

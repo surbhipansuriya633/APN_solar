@@ -10,6 +10,7 @@ import Team from './components/Team';
 import Contact from './components/Contact';
 import WhoWe from './components/WhoWe';
 import SolarSolutions from './components/SolarSolutions';
+import MissionVision from './components/MissionVision';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Header />
         <Hero />
         <About />
+        <MissionVision />
         <WhoWe />
         <Services />
         <Process />
@@ -25,7 +27,7 @@ function App() {
         <Team />
         <Contact />
       </div>
-      <footer className="footer">© {new Date().getFullYear()} APN Solar </footer>
+      <footer className="footer">© {new Date().getFullYear()} shivoham Multy pvt ltd. </footer>
     </div>
   );
 }

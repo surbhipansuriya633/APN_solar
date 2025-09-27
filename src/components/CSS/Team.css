@@ -1,0 +1,48 @@
+.team-section {
+    background: #fdf2f2;
+}
+
+.team-card {
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #fff;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.role-badge {
+    display: inline-block;
+    background: #dc3545;
+    /* Bootstrap danger color */
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+.contact-text {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.team-card h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+    .role-badge {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+    }
+
+    .team-card h5 {
+        font-size: 1rem;
+    }
+}
