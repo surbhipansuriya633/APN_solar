@@ -33,8 +33,8 @@ export default function Team() {
           <div className="col-12 col-sm-6 col-lg-3">
             <div className="team-card h-100 shadow-lg border-0 text-center p-3">
               <div className="card-body d-flex flex-column justify-content-between">
-                <p className="role-badge  mt-4">Kishankumar Tank</p>
-                <h5 className="card-title fw-bold mt-2">Founder</h5>
+                <p className="role-badge  mt-4">Founder</p>
+                <h5 className="card-title fw-bold mt-2">Kishankumar Tank</h5>
                 <a href={`tel:84691 29147`} className="text-decoration-none mt-1">
                   <p className="contact-text">+91 84691 29147</p>
                 </a>
@@ -44,8 +44,8 @@ export default function Team() {
           <div className="col-12 col-sm-6 col-lg-3">
             <div className="team-card h-100 shadow-lg border-0 text-center p-3">
               <div className="card-body d-flex flex-column justify-content-between">
-                <p className="role-badge mt-4">H C Gajjar</p>
-                <h5 className="card-title fw-bold mt-2">Project Manager</h5>
+                <p className="role-badge mt-4">Project Manager</p>
+                <h5 className="card-title fw-bold mt-2">H C Gajjar</h5>
                 <a href={`tel:9054031131`} className="text-decoration-none mt-1">
                   <p className="contact-text">+91 90540 31131</p>
                 </a>
