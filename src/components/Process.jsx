@@ -7,27 +7,36 @@ export default function Process() {
   const steps = [
     {
       step: "Step 1",
-      title: "Site Visit",
-      description:
-        "We make sure our client gets all the information on the very first day of our visit with the POA of our work.",
+      title: "Site Survey & Feasibility Study",
+      description: "Comprehensive Site Survey & Feasibility Study for Optimized Solutions",
     },
     {
       step: "Step 2",
-      title: "Design & Documentation",
-      description:
-        "Making a clear view about the way the whole project will look like & PPA for Net metering Process.",
+      title: "Customized Design & Proposal",
+      description: "Tailored Design & Proposal to Match Your Unique Requirements",
     },
     {
       step: "Step 3",
-      title: "Fabrication & Installation",
-      description:
-        "A complete frame of GI structure with bolts & nuts for better strength & Installation according to the Single Line Diagram (SLD) with proper chain of Strings & Series.",
+      title: "Documentation & Net Metering Approval",
+      description: "Complete Documentation & Net Metering Approval for Hassle-Free Compliance",
     },
     {
       step: "Step 4",
-      title: "Commissioning & Net Meter",
+      title: "Material Procurement & Supply",
       description:
-        "Final step when the entire solar system ready to connect with Net Meter along with PPA.",
+        "Efficient Material Procurement & Supply to Ensure Timely Project Execution.",
+    },
+    {
+      step: "Step 5",
+      title: "Installation & Commissioning",
+      description:
+        "Expert Installation & Seamless Commissioning for Reliable Performance",
+    },
+    {
+      step: "Step 6",
+      title: "Operation & Maintenance Support",
+      description:
+        "Reliable Operation & Maintenance Support for Long-Term Performance",
     },
   ];
 
@@ -54,7 +63,7 @@ export default function Process() {
     // </section>
     <section className="process-section">
       <Container>
-        <h2 className="section-title">Our Process</h2>
+        <h2 className="section-title">Installation Process</h2>
         <div className="timeline">
           {steps.map((step, index) => (
             <div
