@@ -1,13 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CSS/Services.css'; // We'll create this for custom styles
+import { BsPlugFill, BsSunFill } from 'react-icons/bs';
 
 export default function Services() {
   const items = [
     {
       title: 'Solar EPC & Development',
       desc: 'Rooftop design, installation, commissioning and O&M.',
-      icon: 'bi-sun-fill'
+      icon: <BsSunFill size={24} className='text-danger' />
     },
     // {
     //   title: 'Energy Storage Systems',
@@ -17,7 +18,7 @@ export default function Services() {
     {
       title: 'E‑Mobility & EV Chargers',
       desc: 'Small-footprint IoT-powered EV charging stations and swap solutions.',
-      icon: 'bi-plug-fill'
+      icon: <BsPlugFill size={24} className='text-danger' />
     },
     // {
     //   title: 'Franchise Partner Program',
@@ -38,11 +39,11 @@ export default function Services() {
           <div key={idx} className="col-md-4 col-sm-5 col-10 col-lg-3">
             <div className="service-card p-4 text-center h-100 shadow-lg rounded">
               <div className="service-icon mb-3">
-                <i className={`bi ${it.icon} fs-1 text-warning`}></i>
+                {it.icon}
               </div>
               <h5 className="fw-bold mb-2">{it.title}</h5>
               <p className="text-muted">{it.desc}</p>
-              <a href="#contact" className="btn btn-outline-primary mt-3">Learn More</a>
+              {/* <a href="#contact" className="btn btn-outline-primary mt-3">Learn More</a> */}
             </div>
           </div>
         ))}

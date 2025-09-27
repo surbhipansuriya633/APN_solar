@@ -31,6 +31,12 @@ export default function About() {
             <p className="">
               Shivoham Multy Pvt. Ltd. (Alternative Power Network) is a joint-venture manufacturer, energy consultancy, and EPC contractor delivering sustainable power solutions for residential, commercial, and industrial sectors. We specialize in cost-effective renewable energy solutions tailored to your needs.
             </p>
+            <p className="">
+              We specialize in designing, engineering, and implementing solar projects with complete support — from site surveys and documentation to installation and long-term maintenance. With our team of experienced engineers and project managers, we ensure that every project is built to the highest standards of quality, safety, and sustainability.
+            </p>
+            <p className="">
+              At Shivoham Multy Pvt Ltd, we believe in creating a brighter and sustainable tomorrow powered by the sun. As a trusted EPC contractor and energy consultant, we provide end-to-end solar solutions for residential, commercial, and industrial sectors. Our mission is to make renewable energy affordable, reliable, and accessible for everyone.
+            </p>
 
           </Col>
         </Row>
