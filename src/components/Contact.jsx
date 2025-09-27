@@ -25,8 +25,7 @@ export default function Contact() {
               <div>
                 <h6 className="fw-bold">Address</h6>
                 <p className="mb-0">
-                  Space 912, Corporate Park, Office No. 605/606, Pleasant Park,
-                  Mira Bhayander Road, Mira Road East – 401107, MH, India.
+                  321 royal square near VIP circle uttran Surat Gujarat pincode 394101
                 </p>
               </div>
             </div>
@@ -37,28 +36,10 @@ export default function Contact() {
               </div>
               <div>
                 <h6 className="fw-bold">Email</h6>
-                <p className="mb-0">sales@apnsolar.com</p>
-                <p className="mb-0">support@apnsolar.com</p>
+                <p className="mb-0">info.shivohaminternational@gmail.com</p>
               </div>
             </div>
-
-            <div className="d-flex align-items-start">
-              <div className="icon-box me-3">
-                <BiGlobe size={24} />
-              </div>
-              <div>
-                <h6 className="fw-bold">Website</h6>
-                <a
-                  href="https://www.apnsolar.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white text-decoration-underline"
-                >
-                  www.apnsolar.com
-                </a>
-              </div>
             </div>
-          </div>
 
           {/* Right Side - Contact Form */}
           <div className="col-12 col-lg-6">

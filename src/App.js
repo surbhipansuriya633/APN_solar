@@ -8,6 +8,8 @@ import Services from './components/Services';
 import Process from './components/Process';
 import Team from './components/Team';
 import Contact from './components/Contact';
+import WhoWe from './components/WhoWe';
+import SolarSolutions from './components/SolarSolutions';
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
         <Header />
         <Hero />
         <About />
+        <WhoWe />
         <Services />
         <Process />
+        <SolarSolutions />
         <Team />
         <Contact />
       </div>
