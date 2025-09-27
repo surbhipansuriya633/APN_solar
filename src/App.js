@@ -27,7 +27,7 @@ function App() {
         <Team />
         <Contact />
       </div>
-      <footer className="footer">© {new Date().getFullYear()} shivoham Multy pvt ltd. </footer>
+      <footer className="footer">© {new Date().getFullYear()} Shivoham Multy Services </footer>
     </div>
   );
 }

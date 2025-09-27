@@ -41,8 +41,8 @@ export default function Services() {
   return (
     <section id="services" className="container-xxl py-5" style={{ backgroundImage: "url('https://media.istockphoto.com/id/2168595801/photo/solar-power-station-and-wind-power-station-at-sunrise.webp?a=1&b=1&s=612x612&w=0&k=20&c=HfLR3dlJfo_xGKu0aSkfJVdC_LpuqrBUI7ltUQ-VcyA=')", backgroundRepeat: "no-repeat", backgroundPosition: 'right', backgroundSize: "70% 100%" }}>
       <div className="text-center mb-5">
-        <h2 className="fw-bold">Our Services</h2>
-        <p className="text-muted">Innovative energy solutions for homes, businesses, and partners.</p>
+        <h1 className="fw-bold text-decoration-underline">Our Services</h1>
+        <p className="text-muted fw-bold">Innovative energy solutions for homes, businesses, and partners.</p>
       </div>
       <div className="row justify-content-center g-4">
         {items.map((it, idx) => (

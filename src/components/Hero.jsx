@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-left text-light  m-md-5 m-0">
         <h1 className='text-light'>Renewable Energy • E‑Mobility • Energy Storage</h1>
         <p className="muted">
-          shivoham Multy pvt ltd — sustainable solar EPC, EV charging & storage solutions for homes, business and franchise partners.
+          Shivoham Multy Services — sustainable solar EPC, EV charging & storage solutions for homes, business and franchise partners.
         </p>
         <a className="cta" href="#contact">Get in touch</a>
       </div>

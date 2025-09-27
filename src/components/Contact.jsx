@@ -25,7 +25,7 @@ export default function Contact() {
               <div>
                 <h6 className="fw-bold">Address</h6>
                 <p className="mb-0">
-                  321, royal square, near VIP circle, uttran, Surat, Gujarat, pincode 394101.
+                  321, Royal Square, Near VIP Circle, Uttran, Surat, Gujarat, Pincode 394105.
                 </p>
               </div>
             </div>
