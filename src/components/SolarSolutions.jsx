@@ -32,7 +32,7 @@ const SolarSolutions = () => {
     );
 
     return (
-        <div className="container py-5">
+        <div className="container py-5" id="wedo">
             {/* Header Section */}
             <div className="mb-5">
                 <h2 className="fw-bold section-title">What We Do</h2>

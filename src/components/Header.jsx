@@ -7,16 +7,16 @@ export default function Header() {
         <img
           src={require('../assets/logo.jpg')}
           alt="Logo"
-          style={{ height: '80px', width: 'auto' }} // optional styling
+          style={{ height: '70px', width: 'auto' }} // optional styling
         />
       </div>
       <nav className="nav d-md-block d-none">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#WhoWe">WhoWe</a>
-        <a href="#process">Process</a>
-        <a href="#team">Team</a>
-        <a href="#contact">Contact</a>
+        <a className='fw-bold text-dark text-uppercase' style={{fontSize:'13px'}} href="#about">About</a>
+        <a className='fw-bold text-dark text-uppercase' style={{fontSize:'13px'}} href="#WhoWe">WhoWe</a>
+        <a className='fw-bold text-dark text-uppercase' style={{fontSize:'13px'}} href="#services">Services</a>
+        <a className='fw-bold text-dark text-uppercase' style={{fontSize:'13px'}} href="#process">Process</a>
+        <a className='fw-bold text-dark text-uppercase' style={{fontSize:'13px'}} href="#team">Team</a>
+        <a className='fw-bold text-dark text-uppercase' style={{fontSize:'13px'}} href="#contact">Contact</a>
       </nav>
     </header>
   );
